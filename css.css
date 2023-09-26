@@ -1,0 +1,20 @@
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    a {
+       @apply underline focus:underline;
+       text-underline-offset:0.5em;
+       text-decoration-color: rgb(46, 78, 146);
+       font-size: 18px;
+       
+    }
+    a:hover,
+    a:focus {
+  color: rgb(46, 78, 146);
+  font-weight: bold;
+  } 
+}
